@@ -30,7 +30,7 @@ function initParallax (parallax) {
   }
 
   window.addEventListener('scroll', update)
-  window.addEventListener('recise', update.bind(null, true))
+  window.addEventListener('resize', update.bind(null, true))
 }
 
 document.addEventListener('DOMContentLoaded', function () {
