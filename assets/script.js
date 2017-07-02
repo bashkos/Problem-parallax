@@ -21,7 +21,7 @@ function initParallax (parallax) {
         }
 
         window.requestAnimationFrame(function () {
-          background.style.transform = 'translateY(' + (offset * .7) + 'px)'
+          background.style.transform = 'translate3d(0, ' + (offset * .7) + 'px, 0)'
         });
       } else {
         console.log('sleep')
